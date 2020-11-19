@@ -10,9 +10,9 @@ def step_impl(context, url):
     page.open(url)
 
 
-@when(u'fizer validacoes')
-def step_impl(context):
-    page.search_item("Jam Batista", "jam@jam.com")
+@when(u'fizer validacoes com "{nameUser}" e email "{emailUser}"')
+def step_impl(context, nameUser, emailUser):
+    page.search_item(nameUser, emailUser)
 
 
 @then(u'teremos resultados')
