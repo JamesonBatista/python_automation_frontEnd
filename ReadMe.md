@@ -7,7 +7,7 @@ pip install -U behave
 ### Execute reporter allure:
 behave -f allure_behave.formatter:AllureFormatter -o reports/ features
 
-### esse comando deve ser usando no CMD
+### esse comando deve ser usando no CMD estando no caminho do seu projeto
 allure serve reports/
 
 ### Download e configuração do Allure
