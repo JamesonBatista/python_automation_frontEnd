@@ -1,6 +1,6 @@
 from behave import *
 
-from features.pages.browserElements import BrowserElement
+from pages.browserElements import BrowserElement
 
 
 @given(u'for acessado pagina de teste "{url}"')
